@@ -1,0 +1,8 @@
+opencv-python==4.10.0.84
+pytesseract==0.3.10
+firebase-admin==6.5.0
+numpy==1.26.4
+ultralytics==8.2.35
+ultralytics-thop==2.0.0
+pandas==2.2.2
+pillow==10.3.0
