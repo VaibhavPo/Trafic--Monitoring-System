@@ -1,7 +1,7 @@
 # 🚦 Traffic Monitoring System for Chardham Route  
 **Enhancing Pilgrimage Safety & Vehicle Flow using AI**
 
-![Project Flow](https://raw.githubusercontent.com/VaibhavPo/Trafic--Monitoring-System/flowchart.png)
+![Project Flow](https://github.com/VaibhavPo/Trafic--Monitoring-System/blob/main/flowchart.png)
 
 ---
 
