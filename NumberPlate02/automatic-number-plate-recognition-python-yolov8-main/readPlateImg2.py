@@ -6,8 +6,10 @@ import os
 import csv
 
 # https://chatgpt.com/share/f9509eb3-a41d-46d6-8c79-d45e96715504
+
+
 # Configure pytesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Mapping dictionaries for character conversion
 dict_char_to_int = {'O': '0', 'I': '1', 'J': '3', 'A': '4', 'G': '6', 'S': '5', 'E':'8'}

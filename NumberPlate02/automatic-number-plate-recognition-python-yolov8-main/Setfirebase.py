@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials,db
 
 #Use the path to your .json file got from firebase
-cred =credentials.Certificate('')
+cred =credentials.Certificate('trafficcngestion-firebase-adminsdk-rulrl-ac293c428e.json')
 
 
 firebase_admin.initialize_app(

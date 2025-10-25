@@ -37,7 +37,7 @@ def mainFun(value,table_update_queue, frame_update_queue):
     print(value)
     # load models
     coco_model = YOLO('yolov8n.pt')
-    license_plate_detector = YOLO('NumberPlate02/automatic-number-plate-recognition-python-yolov8-main/models/best2.pt')
+    license_plate_detector = YOLO('models/best2.pt')
 
     # load video
     cap = cv2.VideoCapture(f'{value}')
@@ -229,7 +229,7 @@ def check_queues(table_queue, frame_queue):
     window.after(1000, check_queues, table_queue, frame_queue)
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\New folder (5)\xamp\htdocs\TrafficCongestion\GUI_Win\build\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r".\assets\frame0")
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
