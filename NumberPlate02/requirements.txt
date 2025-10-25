@@ -6,3 +6,7 @@ ultralytics==8.2.35
 ultralytics-thop==2.0.0
 pandas==2.2.2
 pillow==10.3.0
+filterpy==1.4.5
+scikit-image==0.21.0
+lapx==0.5.6
+torch==2.5.1
