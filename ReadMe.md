@@ -73,11 +73,9 @@ We welcome collaboration, especially on:
 - Integrating alert systems
 - Deploying on embedded hardware (e.g. Raspberry Pi, Jetson Nano)
 
-📬 **Connect with me** on [LinkedIn](https://linkedin.com/in/vaibhavpokhriyal) or raise an issue to contribute.
+📬 **Connect with me** on [LinkedIn](https://www.linkedin.com/in/vaibhav-pokhriyal-237b86259/) or raise an issue to contribute.
 
 ---
-
-> “Smart roads lead to smoother journeys – not just physically, but spiritually.”
 
 
 ## How to run
@@ -98,3 +96,5 @@ We welcome collaboration, especially on:
    - Download the JSON file from Firebase Console.
    - Place it in the project directory.
    - Update in `Setfirebase.py` with the filename.
+
+> “Smart roads lead to smoother journeys – not just physically, but spiritually.”
