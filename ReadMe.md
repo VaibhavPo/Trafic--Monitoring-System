@@ -79,3 +79,18 @@ We welcome collaboration, especially on:
 
 > “Smart roads lead to smoother journeys – not just physically, but spiritually.”
 
+
+## How to run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VaibhavPo/Trafic--Monitoring-System.git
+   ```
+2. Install dependencies:
+--- use python 3.11 in virtual enviroment
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the main script:
+   ```bash
+   python main.py
+   ```
