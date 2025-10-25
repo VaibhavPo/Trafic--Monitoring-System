@@ -94,3 +94,7 @@ We welcome collaboration, especially on:
    ```bash
    python main.py
    ```
+4. Add Firebase Admin SDK JSON file:
+   - Download the JSON file from Firebase Console.
+   - Place it in the project directory.
+   - Update in `Setfirebase.py` with the filename.
