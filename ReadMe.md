@@ -90,13 +90,15 @@ We welcome collaboration, especially on:
    ```
 3. Run the main script:
    ```bash
-   python main.py
+   python gui.py
    ```
 4. Add Firebase Admin SDK JSON file:
    - Download the JSON file from Firebase Console.
    - Place it in the project directory.
    - Update in `Setfirebase.py` with the filename.
    - Also add realtime db url at databaseURL.
-5. Install pytessaract and add the installed location at enviromental variable and also update it at readPlateImg2.py
+
+5. Install pytessaract and add the installed location at enviromental variable 
+   -also update it at readPlateImg2.py
 
 > “Smart roads lead to smoother journeys – not just physically, but spiritually.”
