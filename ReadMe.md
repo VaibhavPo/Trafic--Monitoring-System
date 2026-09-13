@@ -102,3 +102,24 @@ We welcome collaboration, especially on:
    -also update it at readPlateImg2.py
 
 > “Smart roads lead to smoother journeys – not just physically, but spiritually.”
+
+## Known Limitations
+
+Plate reads are validated against the standard Indian number-plate format
+(state code + district code + series + number, e.g. `UK12...`). When a raw
+OCR read doesn't match that pattern, the system falls back to running OCR
+on the full plate crop directly — which is where most read errors come from.
+
+Two failure modes show up in the detection logs:
+- **Inconsistent reads across frames** — the same vehicle can log two
+  different plate strings a few frames apart (e.g. `DL7CD507` vs `DL7C507`),
+  since OCR isn't deterministic frame-to-frame.
+- **Partial/failed reads** — plates flagged with "unable to read a valid
+  license plate correctly," usually from motion blur, angle, or plate
+  condition.
+
+This was the actual bottleneck in the system — not detection (which
+validated at 80%+ on sample footage) but OCR reliability. The logical next
+step would be multi-frame voting (take the majority read across several
+frames per vehicle instead of trusting a single frame) rather than trying
+to improve single-frame OCR accuracy directly.
